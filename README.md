@@ -8,7 +8,7 @@ This is the frontend part of the Book Management application, which allows users
 
 ## Setup
 
-1.start backendservice first
+1. ## Start backendservice first
 
 2. Clone this repository to your local machine:
 
