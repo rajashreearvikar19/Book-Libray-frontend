@@ -8,25 +8,27 @@ This is the frontend part of the Book Management application, which allows users
 
 ## Setup
 
-1. Clone this repository to your local machine:
+1.start backendservice first
+
+2. Clone this repository to your local machine:
 
    ```bash
    git clone https://github.com/your-username/book-management-frontend.git
    ```
 
-2. Navigate to the project directory:
+3. Navigate to the project directory:
 
    ```bash
    cd book-management-frontend
    ```
 
-3. Install dependencies:
+4. Install dependencies:
 
    ```bash
    npm install
    ```
 
-4. Start the development server:
+5. Start the development server:
 
    ```bash
    npm start
