@@ -8,7 +8,7 @@ const Book = ({ book, onDelete, onEdit }) => {
           <h5 className="card-title">{book.title}</h5>
           <p className="card-text">Author: {book.author}</p>
           <p className="card-text">Publication Year: {book.publication_year}</p>
-          <p className="card-text">Description: {book.description}</p>
+          <p className="card-text">Genre: {book.genre.join(', ')}</p>
           <div className="mt-auto">
             <button className="btn btn-danger" onClick={() => onDelete(book.id)}>Delete</button>
             <span className="mx-2"></span> {/* Add space between buttons */}
